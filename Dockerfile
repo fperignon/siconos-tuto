@@ -41,7 +41,7 @@ RUN \
   cd build && \
   mkdir siconos && \
   cd siconos && \
-  cmake ../../siconos -DUSER_OPTIONS_FILE=../../siconos_default.cmake&& \
+  cmake ../../siconos -DUSER_OPTIONS_FILE=/home/main/notebooks/siconos_default.cmake&& \
   make -j 4 && \
   make install
 
