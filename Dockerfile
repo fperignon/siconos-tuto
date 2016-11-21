@@ -41,7 +41,7 @@ RUN \
   cd build && \
   mkdir siconos && \
   cd siconos && \
-  cmake ../../siconos -DWITH_DOXY2SWIG=ON -DDEV_MODE=ON -DCMAKE_BUILD_TYPE=Debug -DWITH_MECHANISMS=OFF -DWITH_DOCUMENTATION=OFF -DWITH_BULLET=OFF&& \
+  cmake ../../siconos -DUSER_OPTIONS_FILE=../../siconos_default.cmake&& \
   make -j 4 && \
   make install
 
