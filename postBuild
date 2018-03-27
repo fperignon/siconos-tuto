@@ -1,6 +1,6 @@
  #!/bin/bash
  git clone https://github.com/siconos/siconos.git
- ls *
+ apt remove *python2.7*
  mkdir build
  cd build
  pwd
