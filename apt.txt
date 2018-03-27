@@ -19,5 +19,4 @@ python3-pytest
 python3-scipy
 python3-matplotlib
 bash
-libbullet-dev
 python3-h5py
