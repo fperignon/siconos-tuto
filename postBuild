@@ -7,5 +7,7 @@
  which python
  which python3
  python --version
+ apt search libpython
+ apt search python |grep dev
  cmake ../siconos -DUSER_OPTIONS_FILE=/home/jovyan/siconos_default.cmake
  make -j 4
