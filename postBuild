@@ -1,14 +1,6 @@
  #!/bin/bash
  git clone https://github.com/siconos/siconos.git
- apt remove *python2.7*
  mkdir build
  cd build
- pwd
- which python
- which python3
- python --version
- apt search libpython
- apt search python |grep dev
- apt list --installed |grep python 
- cmake ../siconos -DUSER_OPTIONS_FILE=/home/jovyan/siconos_default.cmake
+ cmake ../siconos -DUSER_OPTIONS_FILE=/home/jovyan/siconos_default.cmake -DPYTHON_EXECUTABLE=`which python3`
  make -j 4
