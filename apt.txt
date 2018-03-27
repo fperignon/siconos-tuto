@@ -13,6 +13,7 @@ libatlas-base-dev
 lp-solve
 liblpsolve55-dev
 python3-dev
+libpython3-dev
 python3-lxml
 python3-pytest
 python3-scipy
