@@ -1,10 +1,11 @@
  #!/bin/bash
  git clone https://github.com/siconos/siconos.git
- apt uninstall *python*
- apt install libpython3-dev
  ls *
  mkdir build
  cd build
  pwd
+ which python
+ which python3
+ python --version
  cmake ../siconos -DUSER_OPTIONS_FILE=/home/jovyan/siconos_default.cmake
  make -j 4
