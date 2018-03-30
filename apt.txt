@@ -12,11 +12,7 @@ liblapack-dev
 libatlas-base-dev
 lp-solve
 liblpsolve55-dev
-python-dev
-libpython-dev
-python-lxml
-python-pytest
-python-scipy
-python-matplotlib
+python3-dev
+libpython3-dev
 bash
-python-h5py
+swig3

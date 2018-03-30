@@ -7,5 +7,5 @@
  ls /srv/venv/share/python-wheels/*.so
 ls /usr/lib/python3.6/config-3.6m-x86_64-linux-gnu/*.so
 python3 ../siconos/cmake/explore_python_config.py
- cmake ../siconos -DUSER_OPTIONS_FILE=/home/jovyan/siconos_default.cmake -DPYTHON_LIBRARIES=/usr/lib/python3.6/config-3.6m-x86_64-linux-gnu/libpython3.6.so
+ cmake ../siconos -DUSER_OPTIONS_FILE=/home/jovyan/siconos_default.cmake -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.6m.so
  make -j 4
